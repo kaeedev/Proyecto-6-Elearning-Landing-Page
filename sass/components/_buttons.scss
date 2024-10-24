@@ -1,0 +1,15 @@
+.button{
+    @include button();
+}
+
+.button-pink-blue {
+    @include button-gradient-blue();
+}
+
+.button-pink-orange {
+    @include button-gradient-orange();
+}
+
+.button-link{
+    @include button-link();
+}

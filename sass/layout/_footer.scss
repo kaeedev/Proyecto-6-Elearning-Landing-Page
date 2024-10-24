@@ -1,0 +1,14 @@
+footer.footer-principal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $dark_blue;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+            @include reset-list();
+        }
+    }
+
+}

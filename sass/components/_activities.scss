@@ -1,0 +1,95 @@
+.activities{
+    margin-bottom: 70px;
+
+    &_header {
+        background-image: $gradient-pink-orange;
+        padding: 25px 30px;
+        color: white;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        @include breakpoint(tablet){ //Para que en tablet no tengan margin-bottom y otras cosas
+            margin-bottom: 0;
+            padding-bottom: 80px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    &_item{
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        box-shadow: 0 3px 5px rgb(243, 242, 242);
+        @include breakpoint(tablet){ //Para que en tablet no tengan margin-bottom
+            margin-bottom: 0;
+        }
+        margin-bottom: 30px;
+        &-icon {
+            background-image: $gradient-pink-orange;
+            border-radius: 50%;
+            padding: 5px;
+            margin-bottom: 10px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            img{
+                margin: 0;
+            }
+            &-animation {
+                width: 23px;
+                height: 24px;
+            }
+            &-photography{
+                width: 23px;
+                height: 24px;
+            }
+            &-design{
+                width: 23px;
+                height: 24px;
+            }
+            &-crypto{
+                width: 23px;
+                height: 24px;
+            }
+            &-business{
+                width: 23px;
+                height: 24px;
+            }
+        }
+
+        
+
+        &-title{
+            color: black;
+            font-size: 20px;
+            margin-bottom: 26px;
+        }
+
+        &-description{
+            color: $grey;
+            font-size: 16px;
+            margin-bottom: 28px;
+        }
+
+        &-cta {
+            @include button-link()
+        }
+    }
+
+    .container{
+        @include breakpoint(tablet){  //Mixin que convierte la seccion de actividades en un grid al pasar a tablet
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px 30px;
+        }
+        @include breakpoint(tablethorizontal){  //Mixin que convierte la seccion de actividades en un grid al pasar a tablet
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 70px 30px;
+
+        }
+    }
+}
