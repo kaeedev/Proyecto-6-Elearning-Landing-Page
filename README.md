@@ -46,7 +46,7 @@ https://kaeedev.github.io/Proyecto-6-Elearning-Landing-Page/
 
 1. Clona este repositorio:
    ```bash
-   https://github.com/kaeedev/Projects-Django.git
+   https://github.com/kaeedev/Proyecto-6-Elearning-Landing-Page.git
 
 2. No requiere de instalación. Con la extensión live server o similares de VSCODE podrás ver el proyecto de manera local
 
@@ -106,7 +106,7 @@ https://kaeedev.github.io/Proyecto-6-Elearning-Landing-Page/
 
 - Clone this repository:
   ```bash
-  git clone https://github.com/kaeedev/Projects-Django.git
+  https://github.com/kaeedev/Proyecto-6-Elearning-Landing-Page.git
   
 - No installation is required. You can use the Live Server extension or similar in VS Code to view the project locally.
   
